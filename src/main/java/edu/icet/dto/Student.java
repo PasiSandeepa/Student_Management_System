@@ -17,7 +17,7 @@ public class Student {
     private String address;
     private String gender;
     private  String status;
-    private LocalDate dateOfBirth;      // LocalDate type
+    private LocalDate dateOfBirth;
     private LocalDate admissionDate;
 
 }

@@ -2,7 +2,12 @@ package edu.icet.service;
 
 import edu.icet.dto.Student;
 
+import java.util.List;
+
 public interface StudentService {
-    boolean addStudents(Student student);
+   void addStudents(Student student);
+   List<Student> getAll();
+   void updateStudent(Student student);
+   void deleteStudent(int id);
 
 }
